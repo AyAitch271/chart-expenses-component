@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,700');
+
+@import '_variables'; 
+@import 'container';
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $cream;
+  font-family: $family, 'sans-serif';
+  font-size: $fontSize;
+  color: $darkBrown;
+}

@@ -1,0 +1,61 @@
+@import '_variables';
+
+canvas{
+    cursor: pointer;
+    }
+
+hr{
+    background-color: $mediumBrown;
+    height: .5px;
+    border: none;
+}
+
+.--label{
+    display: block;
+    color: $mediumBrown;
+    font-weight: $rweight;
+}
+
+.--bold{
+    font-weight: $bweight;
+}
+
+
+.container{
+    width: 370px;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: $radius;
+        background-color: $softRed;
+        color: $veryPaleOrange;
+        padding: 20px;
+        margin: 0px 0px 15px 0px;
+        &__label{
+            color: $veryPaleOrange;
+        }
+    } 
+    &__main{
+     border-radius: $radius;
+     background-color: $veryPaleOrange;
+     padding: 20px 20px 30px 20px;
+     &__spendings{
+        font-size: 1.5rem;
+     }
+     &__summary{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--right{
+            text-align: end;
+        }
+        .total{
+            font-size: 2rem;
+        }
+     }
+    }
+
+}
+
+
